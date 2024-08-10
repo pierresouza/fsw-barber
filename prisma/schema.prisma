@@ -25,10 +25,10 @@ model BarberShop {
   imageUrl    String
   createdAt   DateTime            @default(now())
   updatedAt   DateTime            @updatedAt
-  services    BarberShopService[]
+  services    barbershopService[]
 }
 
-model BarberShopService {
+model barbershopService {
   id           String     @id @default(uuid())
   name         String
   description  String
@@ -44,7 +44,7 @@ model Booking {
   userId    String
   user      User              @relation(fields: [userId], references: [id])
   serviceId String
-  service   BarberShopService @relation(fields: [serviceId], references: [id])
+  service   barbershopService @relation(fields: [serviceId], references: [id])
   date      DateTime
   createdAt DateTime          @default(now())
   updatedAt DateTime          @updatedAt
