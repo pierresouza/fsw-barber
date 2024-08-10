@@ -1,11 +1,10 @@
 # Aula Zero
 
 - [X] Setup do banco
-- [] Seeding do banco(colocar dados)
+- [X] Seeding do banco(colocar dados)
 - [] Introdução ao Next.js
 - [] Talwind e shadcn
 - [] Git Hooks
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
