@@ -48,6 +48,7 @@ const Home = () => {
                 <p className="text-sm">Barbearia FWS</p>
               </div>
             </div>
+            {/* DIREITA */}
             <div className="flex flex-col items-center justify-center border-l-2 border-solid px-5">
               <p className="text-sm">Agosto</p>
               <p className="text-xl">06</p>
